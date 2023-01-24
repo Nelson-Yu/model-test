@@ -11,5 +11,5 @@ body {
 .model {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 80vh;
 }

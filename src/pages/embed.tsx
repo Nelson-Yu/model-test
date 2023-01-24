@@ -12,8 +12,8 @@ export default function Embed() {
       </Head>
       <main>
         <Nav />
-        <div className="flex justify-center items-center">
-          <div className="modelo-wrapper w-3/4">
+        <div className="flex justify-center items-center border-red-500 border-4 mb-16">
+          <div className="modelo-wrapper w-[95%]">
             <div className="w-full pb-[56.25%] relative">
               <div className="absolute inset-0">
                 <iframe
