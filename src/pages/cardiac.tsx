@@ -100,14 +100,14 @@ export default function Cardiac() {
       </Head>
       <main>
         <Nav />
-        <div className="model">
+        <div className="model border-4 border-red-600">
           <Canvas>
             <Suspense fallback={null}>
-              <OrbitControls />
+              <OrbitControls target={[0, 0, 3.5]} rotateSpeed={0.5} />
               <OrthographicCamera>
                 <Model
-                  scale={40}
-                  position={[0, -2, 0]}
+                  scale={50}
+                  position={[0, -2.75, 1]}
                   showMesh={showMesh}
                   toggleMesh={toggleMesh}
                 />
